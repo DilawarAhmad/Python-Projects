@@ -1,0 +1,12 @@
+<h1 style= " color: blue">
+    This is news Headlines
+</h1>
+<div class="container">
+    {% for n,d,i in mylist %}
+        <img src="{{i}}" alt="" >
+        <h1> News :  </h1>{{n}}
+        {{value|linebreaks}}
+        <h4> Description : </h4>{{d}}
+        {{value|linebreaks}}
+    {% endfor %}
+</div>

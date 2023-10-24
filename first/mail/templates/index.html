@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Email page </title>
+    </head>
+    <body>
+        <h2> sytle="text-align:center;"> Send email using Django </h2>
+        <div style="text-align:center;">
+            <h1> Contact Client </h1>
+            <form method="POST" action="{ % url 'index' %}">
+                <input type="text" name="name" placeholder="title of mail" required>
+                <input type="email " name='email' placeholder="sender email" required>
+                <br>
+                <br>
+
+                <textarea name="message" placeholder="message to be delivered" required>
+                <button class="btn btn-primary mt-2" type="submit"> Submit </button>
+            </form>
+
+        </div>
+
+    </body>
+</html>

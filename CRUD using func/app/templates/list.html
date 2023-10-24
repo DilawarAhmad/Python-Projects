@@ -1,0 +1,8 @@
+<ul>
+    {%for data in form%}
+    <li> {{data.title}} 
+    {{data.description}} </li>
+    {% empty %}
+    <li> Is Empty </li>
+    {% endfor %}
+</ul>

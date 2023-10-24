@@ -1,0 +1,8 @@
+<ul>
+    {% for object in object_list %}
+    <li> {{object.title}} 
+    {{object.description}} </li>
+    {% empty %}
+    <li> Empty List </li>
+    {% endfor %}
+</ul>

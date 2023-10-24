@@ -1,0 +1,80 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> Portfolio </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/sup.jpg' %}" >
+                    <br>
+                    <h4> Hi i am supra </h4>
+                    <p>Heloo i love supra </p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4> This is Favourite </h4>
+                    <br>
+                    <p> This is one of the car that i want to have in my garage , as it is super fast
+                        and this car is everyones favourite as it glows like a diamond and it has
+                        very good sound.
+                    </p>
+                    <br>
+                    <p>
+                        This car race is insane as it goes very fast in few seconds and i takes lead.
+                        I want this car badly as it is my favourite.
+                    </p>
+                    <br>
+                    
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static "images/for.webp" %}"></li>
+                        <li><img class="social" src="{% static "images/supra.jpg" %}"></li>
+                        <li><img class="social" src="{% static "images/for.webp" %}"></li>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2> Discription box </h2>
+                    <p> This is a discription box </p>
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2> New features </h2>
+                    <p> Here you can give your opinion on how can we make bette design cars</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2> About car </h2>
+                    <p> Here you will see about car features </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2> Buy it </h2>
+                    <p> Here you can buy a car that you have choosen </p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+  </body>
+</html>
+
